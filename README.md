@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [@nees101/FrontendMentor](https://your-solution-url.com)
-- Live Site URL: [@nees101/github](https://your-live-site-url.com)
+- Solution URL: [@nees101/FrontendMentor](https://www.frontendmentor.io/solutions/two-column-layout-design-using-flex-box-VDAy7LqbZ)
+- Live Site URL: [@nees101/github]( https://nees101.github.io/Huddle-landing-page-with-single-introductory-section-Solution/)
 
 ## My process
 
