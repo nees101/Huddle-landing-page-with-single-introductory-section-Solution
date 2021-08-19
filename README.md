@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./FinalDesignScreenshots/Desktop_Version.png)
-![](./FinalDesignScreenshots/Mobile_Version.png)
+![](./FinalDesignScrrenshots/Desktop_Version.png)
+![](./FinalDesignScrrenshots/Mobile_Version.png)
 
 
 ### Links
