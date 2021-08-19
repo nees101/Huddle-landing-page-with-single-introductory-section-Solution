@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <style>
+    body {
+      background: url("images/bg-desktop.svg") no-repeat;
+      background-color: hsl(257, 40%, 49%);
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      color: #fff;
+      margin: 2.4rem;
+    }
+
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 2.6rem;
+    }
+
+    p {
+      line-height: 1.5;
+      font-size: 1.2rem;
+      opacity: 0.7;
+    }
+
+    .logo {
+      width: 18%;
+      max-width: 100%;
+      height: auto;
+      padding-left: 2%;
+
+    }
+
+    .row {
+      display: flex;
+      padding-top: 4%;
+    }
+
+    .column {
+      flex: 50%;
+      padding: 2%;
+    }
+
+    .register_btn {
+      background-color: #fff;
+      color: hsl(257, 40%, 49%);
+      border-radius: 2rem;
+      padding: 3.5% 12%;
+      font-size: 1.2rem;
+      margin-top: 1%;
+      border: none;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .register_btn:hover {
+      background-color: hsl(300, 69%, 71%);
+      color: #fff;
+      opacity: 0.7;
+    }
+
+    /* Footer Section */
+    footer {
+      text-align: right;
+    }
+
+    .fab {
+      border: 1px solid #fff;
+      width: 20px;
+      text-align: center;
+      margin-right: 1%;
+      font-size: 1.2rem;
+      border-radius: 100%;
+      padding: 0.75%;
+    }
+
+    .fab:hover {
+      color: hsl(300, 69%, 71%);
+      border-color: hsl(300, 69%, 71%);
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      padding-top: 5%;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    /* Media Query */
+    @media (max-width:375px) {
+
+      body {
+        margin: 2rem;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .logo {
+        width: 40%;
+        padding-bottom: 10%;
+      }
+
+      .row {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .illustration_img {
+        width: 100%;
+        height: auto;
+      }
+
+      .register_btn {
+        font-size: 0.8rem;
+        padding: 3.5% 25%;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 10%;
+      }
+
+      .fab {
+        font-size: 0.7rem;
+        padding: 1.5%;
+        width: 12px;
+        height: auto;
+        margin-right: 1.5%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="images/logo.svg" alt="logo">
+  </header>
+  <main>
+    <div class="row">
+      <div class=column>
+        <img class="illustration_img" src="images/illustration-mockups.svg" alt="illustration image ">
+      </div>
+      <div class=column>
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.
+
+        </p>
+        <button type="button" class="register_btn" name="button">Register</button>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      &nbsp;
+      Coded by <a href="https://www.frontendmentor.io/profile/nees101">Neethu S. Nair</a>.
+    </p>
+  </footer>
+
+</body>
+
+</html>
